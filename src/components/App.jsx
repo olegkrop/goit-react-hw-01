@@ -13,19 +13,17 @@ import { Transactions } from './TransactionHistory/TransactionHistory';
 export const App = () => {
   return (
     <div
-      style={
-        {
-          // height: '100vh',
-          // width: '50%',
-          // display: 'flex',
-          // flexDirection: 'column',
-          // justifyContent: 'center',
-          // alignItems: 'center',
-          // fontSize: 40,
-          // // flexWrap: 'wrap',
-          // color: '#010101',
-        }
-      }
+      style={{
+        width: '500px',
+        padding: '0 50px',
+        backgroundColor: 'white',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '50px',
+        alignItems: 'center',
+      }}
     >
       <Profile
         username={user.username}

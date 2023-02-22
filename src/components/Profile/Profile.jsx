@@ -10,7 +10,6 @@ export function Profile({ username, tag, location, avatar, stats }) {
         <p className={style.tag}>@{tag}</p>
         <p className={style.location}>{location}</p>
       </div>
-
       <ul className={style.stats}>
         <li>
           <span className={style.label}>followers</span>

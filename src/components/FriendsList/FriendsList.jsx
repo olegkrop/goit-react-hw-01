@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 export function FriendsList({ friends }) {
   return (
-    <section className={style.friend}>
+    <section>
       <ul className={style.friendList}>
         {friends.map(friend => (
           <li className={style.item} key={friend.id}>
